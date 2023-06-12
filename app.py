@@ -7,7 +7,7 @@ from math import sin, cos, atan2, sqrt, radians
 from datetime import date, timedelta
 from random import randint
 
-conn = mysql.connector.connect(host = 'localhost', database = 'shippingapiv2', password = 'mydb2023', user = 'root')
+conn = mysql.connector.connect(host = 'containers-us-west-102.railway.app', database = 'railway', password = 'sFYHSk1Kr0pEMV88Pbvl', user = 'root', port=7001)
 
 tz = pytz.timezone('Asia/Jakarta')
 
